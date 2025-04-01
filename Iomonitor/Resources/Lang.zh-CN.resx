@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="conventional" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="appearance_and_behavior" xml:space="preserve">
+    <value>外观和行为</value>
+  </data>
+  <data name="hotkeys" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+  <data name="cursor_lock" xml:space="preserve">
+    <value>光标锁定</value>
+  </data>
+  <data name="display_switch" xml:space="preserve">
+    <value>显示形状开关</value>
+  </data>
+  <data name="about" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="cursor_locked" xml:space="preserve">
+    <value>光标锁定</value>
+  </data>
+  <data name="cursor_locked_subtitle" xml:space="preserve">
+    <value>光标锁定状态</value>
+  </data>
+  <data name="display_switch_subtitle" xml:space="preserve">
+    <value>多显示器展示模式</value>
+  </data>
+  <data name="theme" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="run_at_startup" xml:space="preserve">
+    <value>开机自启动</value>
+  </data>
+  <data name="theme_subtitle" xml:space="preserve">
+    <value>颜色设置</value>
+  </data>
+  <data name="run_at_startup_subtitle" xml:space="preserve">
+    <value>Iomonitor 是否在开机的时候启动</value>
+  </data>
+  <data name="toggle_lock_hotkey_press" xml:space="preserve">
+    <value>切换锁定状态快捷键（按压）</value>
+  </data>
+  <data name="toggle_lock_hotkey_tap" xml:space="preserve">
+    <value>切换锁定状态快捷键（敲击）</value>
+  </data>
+  <data name="toggle_lock_hotkey_press_subtitle" xml:space="preserve">
+    <value>按下快捷键切换光标锁定状态，松开恢复</value>
+  </data>
+  <data name="toggle_lock_hotkey_tap_subtitle" xml:space="preserve">
+    <value>敲击快捷键切换光标锁定状态</value>
+  </data>
+  <data name="toggle_display_mode_hotkey_press" xml:space="preserve">
+    <value>切换显示模式快捷键（按压）</value>
+  </data>
+  <data name="toggle_display_mode_hotkey_press_subtitle" xml:space="preserve">
+    <value>按住 Win+Alt 键，并在显示器边缘右键单击来切换显示模式</value>
+  </data>
+  <data name="select_the_non_extend_mode" xml:space="preserve">
+    <value>选择非扩展显示模式</value>
+  </data>
+  <data name="select_the_non_extend_mode_subtitle" xml:space="preserve">
+    <value>快捷键将在选中的非扩展显示模式和扩展显示模式之间切换</value>
+  </data>
+  <data name="set_mode" xml:space="preserve">
+    <value>设置模式</value>
+  </data>
+  <data name="light" xml:space="preserve">
+    <value>浅色</value>
+  </data>
+  <data name="dark" xml:space="preserve">
+    <value>深色</value>
+  </data>
+  <data name="system_default" xml:space="preserve">
+    <value>系统默认</value>
+  </data>
+  <data name="only_internal_monitor" xml:space="preserve">
+    <value>仅内部屏幕</value>
+  </data>
+  <data name="clone" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="extend" xml:space="preserve">
+    <value>扩展</value>
+  </data>
+  <data name="only_external_monitor" xml:space="preserve">
+    <value>仅第二屏幕</value>
+  </data>
+  <data name="language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>退出</value>
+  </data>
+</root>
